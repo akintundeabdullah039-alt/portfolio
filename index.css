@@ -1,0 +1,51 @@
+ol{
+    background-color: burlywood;
+    padding: 25px
+    /* list-style-image: url(901c03b02be6547830e58b32062738d4.png); */
+}
+ol li{
+    background-color: pink;
+    color: blue;
+    padding: 10px;
+    margin-left: 10px;
+}
+ul{
+    background-color: blue;
+    padding: 25px;
+}
+ul li{
+    background-color: aqua;
+    color: black;
+    padding: 10px;
+}
+
+
+
+.links{
+    text-decoration: none;
+}
+.links:visited{
+    color: purple;
+    text-decoration: underline red solid 5px;
+}
+.links:hover{
+    color: black;
+    border: 2px solid green;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: no-drop;
+}
+.links:active{
+    color: red;
+    text-decoration: underline red  solid 5px;
+}
+
+.table1 th td{
+    border: 2px solid;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+th td{
+    padding: 20px;
+}
